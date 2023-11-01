@@ -1,3 +1,2 @@
 # Bash-scripts
 repo for storing my bash scripts.
-Nothing special about these script's i'm new to bash scripting figured id use this as a place to keep track of my own growth in scripting....
