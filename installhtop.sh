@@ -15,6 +15,6 @@ if command -v $program2
 then
 	echo"$program2 is available,starting daemon with systemctl..."
  else
- 	echo "$program2 is NOT available, finding package1.......2.....3.......3.........5 also installing gufw GUI"
+ 	echo "$program2 is NOT available, finding package. 1.......2.....3.......4.......5 also installing gufw GUI"
   	sudo pacman -S ufw
    	sudo pacman -S gufw
