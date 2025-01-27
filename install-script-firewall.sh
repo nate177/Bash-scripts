@@ -15,6 +15,9 @@ if command -v $
 then
 	echo"$gufw is available,starting daemon with systemctl..."
  else
- 	echo "$gufw is NOT available, finding package. 1.......2.....3.......4.......5 now installing gufw buckle up bitches"
+ 	echo "$gufw is NOT available, finding package. 1.......2.....3.......4.......5 now installing gufw"
    	sudo pacman -Syu
     sudo pacman -S gufw
+    sudo systemctl enable ufw
+    sudo systemctl start ufw
+    sudo ufw enbale
